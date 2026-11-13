@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Downloaded assets — do not redistribute without rights
+*.fbx
+*.glb
+*.gltf
+*.bin
+*.obj
+*.mtl
+*.spz
+*.ply
+*.usd
+*.usdz
+*.blend
+*.blend1
+*.zip
+*.partial
+downloads/
+outputs/
+renders/
+
+# Credentials and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "notes": "ILLUSTRATIVE ONLY — fake values, not evidence",
+  "provider": "example",
+  "source_page": "https://example.org/asset/EXAMPLE",
+  "source_id": "EXAMPLE",
+  "permission_basis": "Record actual authorization",
+  "fetched_at_utc": "1970-01-01T00:00:00Z",
+  "output_filename": "example.glb",
+  "size_bytes": 0,
+  "sha256": null,
+  "representation": "unknown",
+  "signature_check": "not_tested",
+  "blender_import": "not_tested"
+}
