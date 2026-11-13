@@ -37,7 +37,7 @@ curl --version
 python scripts/tripo/download_tripo_model.py
 ```
 
-Requires Python 3.8+ and curl on PATH. It fetches fresh page data, seeks an **exact-ID** model URL in Nuxt data, follows the existing URL including signed parameters, validates downloaded headers and optionally tests FBX in Blender. **It may fail if the website changes, the file is not publicly available, or the execution environment cannot reach it.** The script is carried over from a previously generated artifact and is not a currently verified live integration.
+The legacy Tripo downloader supports Python 3.8+ and curl on PATH. The offline inspector and test suite require **Python 3.10+**. It fetches fresh page data, seeks an **exact-ID** model URL in Nuxt data, follows the existing URL including signed parameters, validates downloaded headers and optionally tests FBX in Blender. **It may fail if the website changes, the file is not publicly available, or the execution environment cannot reach it.** The script is carried over from a previously generated artifact and is not a currently verified live integration.
 
 **Offline metadata check of an asset you legally obtained:**
 

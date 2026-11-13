@@ -5,7 +5,7 @@ We welcome focused documentation, test, Blender pipeline and provider-integratio
 ## Getting started
 
 1. Read `README.md`, `docs/PROJECT_BRIEF.md`, `docs/EVIDENCE_LOG.md`, and `docs/ROADMAP.md`.
-2. Use Python 3.8+ and a current curl; install Blender only for optional integration tests.
+2. Use **Python 3.10+** for the offline inspector and test suite; the legacy downloader itself was written for Python 3.8+. Use a current curl and install Blender only for optional integration tests.
 3. Run `python -m unittest discover -s tests -v`.
 4. Pick a roadmap task, create a feature branch and submit a PR against `main`.
 5. Include real and synthetic test evidence, references and a summary of remaining unknowns.
